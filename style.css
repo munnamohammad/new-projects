@@ -13,22 +13,24 @@ h2{
 }
 .flexible-container{
 display: flex;
-margin-bottom: 100;
+margin-bottom: 100px;
+
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
-    box-shadow:10px 10px yellowgreen;
+    
 }
-.half-width{ 
+.half-width img{ 
     width: 100%;
+    
 }    
 .link-button{
     text-decoration: none;
 
     background-image: linear-gradient(orange,tomato);
     color: white;
-    padding: 10px 40px;
+    padding-left: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
 
@@ -45,13 +47,13 @@ margin-bottom: 100;
 .experience-area{
     background-image: url(images/shapes/Frame\ 56.jpg);
     background-repeat: no-repeat;
-    background-position-left;
+    background-image:linear-gradient();
 }
 .experience-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    box-shadow: 10px 10px 40px grey;
+    
     
 }
